@@ -1,0 +1,15 @@
+Hyper Text Markup Language (HTML)
+    HTML5 - newest version of the HTML standard
+    Building Blocks
+        <!DOCTYPE html>
+        <meta charset="UTF-8">
+        <title>Your Website</title>
+        <link rel="stylesheet" href="style.css">
+    vscode
+        type html
+        go down to HTML5
+        hit enter
+    lining things up
+        shift + alt + f    
+Cascading Style Sheets (CSS)
+Java Script (JS)

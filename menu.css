@@ -1,0 +1,17 @@
+body {
+    background-color: orange;
+}
+
+div {
+    background-color: purple;
+    color: white;
+}
+
+#container2 {
+    background-color: green;
+}
+
+#container3 {
+    display: none;
+}
+
