@@ -5,3 +5,6 @@ img{
     width: 50%;
     
 }
+table, td {
+    border: solid black 2px;
+}
