@@ -1,9 +1,8 @@
 body {
     background-color: red;
 }
-img{
-    width: 50%;
-}
 table, td {
     border: solid black 2px;
 }
+.green {background-color: green}
+#eggs {width:300px; padding:25px;}
