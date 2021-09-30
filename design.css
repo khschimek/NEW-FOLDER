@@ -1,0 +1,94 @@
+body{
+    background-color: green;
+}
+
+.NavigationBar {
+
+    overflow:hidden;
+    background-color: red;
+    height: 50px;
+}
+
+.NavigationBar a {
+    float: left;
+
+    background-color: red;
+    color: black;
+    text-align: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavigationBar a:hover {
+    background-color: purple;
+    color:white;
+}
+
+.NavigationBarPage2 {
+
+    overflow:hidden;
+    background-color:yellow;
+    height: 50px;
+}
+
+.NavigationBarPage2 a {
+    float: left;
+
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavigationBarPage2 a:hover {
+    background-color: blue;
+    color:white;
+}
+
+.NavigationBarPage3 {
+
+    overflow:hidden;
+    background-color:orange;
+    height: 50px;
+}
+
+.NavigationBarPage3 a {
+    float: left;
+
+    background-color: orange;
+    color: black;
+    text-align: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavigationBarPage3 a:hover {
+    background-color: yellowgreen;
+    color:white;
+}
+
+.Text {
+    background-color: White;
+}
