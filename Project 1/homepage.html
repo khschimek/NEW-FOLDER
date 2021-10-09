@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: orange;
+            }
+            .Objects img {
+                width: 300px;
+                height: 150px;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="NavigationBarHome">
+            <a href="homepage.html">Home</a>
+            <a href="project1.html">Dogs</a>
+            <a href="project1page2.html">Cats</a>
+            <a href="project1page3.html">Birds</a>
+    </div>
+    <center>
+        <h1>Home</h1>
+        <div class="Objects">
+            <p>This website is all about animals.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Arthur_Heyer_-_Dog_and_Cats.jpg" alt="Animals" width="600px" height="300px">
+        </div>
+        <br>
+        <div class="Objects">
+            <button onclick="home1()">Welcome!</button>
+        </div>
+        <br><br><br>
+    </center>
+    <script src="actions.js"></script>
+</body>
+</html>

@@ -1,15 +1,45 @@
-body{
+Body {
     background-color: green;
 }
 
-.NavigationBar {
+.NavigationBarHome {
+
+    overflow:hidden;
+    background-color: violet;
+    height: 50px;
+}
+
+.NavigationBarHome a {
+    float: left;
+
+    background-color: violet;
+    color: black;
+    text-align: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavigationBarHome a:hover {
+    background-color:red;
+    color:white;
+}
+
+
+.NavigationBarDog {
 
     overflow:hidden;
     background-color: red;
     height: 50px;
 }
 
-.NavigationBar a {
+.NavigationBarDog a {
     float: left;
 
     background-color: red;
@@ -26,48 +56,19 @@ body{
     font-size: 25px;
 }
 
-.NavigationBar a:hover {
+.NavigationBarDog a:hover {
     background-color: purple;
     color:white;
 }
 
-.NavigationBarPage2 {
+.NavigationBarCat {
 
     overflow:hidden;
-    background-color:yellow;
+    background-color: orange;
     height: 50px;
 }
 
-.NavigationBarPage2 a {
-    float: left;
-
-    background-color: yellow;
-    color: black;
-    text-align: center;
-    
-    padding-left: 15px;
-    padding-right: 15px;
-    
-    padding-top: 12px;
-    padding-bottom: 20px;
-    
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.NavigationBarPage2 a:hover {
-    background-color: blue;
-    color:white;
-}
-
-.NavigationBarPage3 {
-
-    overflow:hidden;
-    background-color:orange;
-    height: 50px;
-}
-
-.NavigationBarPage3 a {
+.NavigationBarCat a {
     float: left;
 
     background-color: orange;
@@ -84,15 +85,36 @@ body{
     font-size: 25px;
 }
 
-.NavigationBarPage3 a:hover {
-    background-color: yellowgreen;
+.NavigationBarCat a:hover {
+    background-color: blue;
     color:white;
 }
 
-.Text {
-    background-color: White;
+.NavigationBarBird {
+
+    overflow:hidden;
+    background-color: yellow;
+    height: 50px;
 }
 
-.Button {
-    background-color: silver
+.NavigationBarBird a {
+    float: left;
+
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.NavigationBarBird a:hover {
+    background-color: darkgreen;
+    color:white;
 }

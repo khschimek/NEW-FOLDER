@@ -4,31 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 Page 3</title>
+    <title>Project 1</title>
     <link rel="stylesheet" href="design.css">
     <style>
         @media only screen and (max-width: 600px) {
             body {
-                background-color: red;
+                background-color: orange;
+            }
+            .Objects img {
+                width: 200px;
+                height: 100px;
             }
         }
+    
     </style>
 </head>
 <body>
-    <div class="NavigationBarPage3">
-            <a href="project1.html">Home</a>
-            <a href="project1page2.html">Page 2</a>
-            <a href="project1page3.html">Page 3</a>
+    <div class="NavigationBarBird">
+            <a href="homepage.html">Home</a>
+            <a href="project1.html">Dogs</a>
+            <a href="project1page2.html">Cats</a>
+            <a href="project1page3.html">Birds</a>
     </div>
     <center>
-        <h1>Page 3</h1>
-        <div class="Text">
-            <p>This is the third page.</p>
-            <img src="image.jpg" alt="Picture" height="200px">
+        <h1>Birds</h1>
+        <div class="Objects">
+            <p>This page is all about birds.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Emperor_Penguin_Manchot_empereur.jpg" alt="Penguin" width="400px" height="200px">
         </div>
-        <div class="Button">
-            <button onclick="spoke()">Goodbye</button>
+        <br>
+        <div class="Objects">
+            <button onclick="bird1()">What kind of bird is this?</button>
         </div>
+        <br><br><br>
+        <div class="Objects">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Sharp-Tailed_Grouse_%2825759427000%29.jpg" alt="Grouse" width="400px" height="200px">
+        </div>
+        <br>
+        <div class=Objects">
+            <button onclick="bird2()">What kind of bird is this?</button>
+        </div>
+        <br><br><br>
+        <div class="Objects">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Ostrich_male_RWD.jpg" alt="Ostrich" width="400px" height="200px">
+        </div>
+        <br>
+        <div class=Objects">
+            <button onclick="bird3()">What kind of bird is this?</button>
+        </div>
+        <br><br><br>
     </center>
     <script src="actions.js"></script>
 </body>

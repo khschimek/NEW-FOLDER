@@ -9,29 +9,50 @@
     <style>
         @media only screen and (max-width: 600px) {
             body {
-                background-color: blue;
+                background-color: orange;
             }
-            .Text img {
-                height: 50px;
+            .Objects img {
+                width: 200px;
+                height: 100px;
             }
         }
+    
     </style>
 </head>
 <body>
-    <div class="NavigationBar">
-            <a href="project1.html">Home</a>
-            <a href="project1page2.html">Page 2</a>
-            <a href="project1page3.html">Page 3</a>
+    <div class="NavigationBarDog">
+            <a href="homepage.html">Home</a>
+            <a href="project1.html">Dogs</a>
+            <a href="project1page2.html">Cats</a>
+            <a href="project1page3.html">Birds</a>
     </div>
     <center>
-        <h1>Home</h1>
-        <div class="Text">
-            <p>This is the home page.</p>
-            <img src="image.jpg" alt="Picture" height="200px">
+        <h1>Dogs</h1>
+        <div class="Objects">
+            <p>This page is all about dogs.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/2_yr_old_Dalmatian.jpg" alt="Dalmation" width="400px" height="200px">
         </div>
-        <div class="Button">
-            <button onclick="speak()">Hello</button>
+        <br>
+        <div class="Objects">
+            <button onclick="dog1()">What kind of dog is this?</button>
         </div>
+        <br><br><br>
+        <div class="Objects">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Chihuahua_portrait.jpg" alt="Chihuahua" width="400px" height="200px">
+        </div>
+        <br>
+        <div class=Objects">
+            <button onclick="dog2()">What kind of dog is this?</button>
+        </div>
+        <br><br><br>
+        <div class="Objects">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/German_Shepherd_Dog_with_disc.jpg" alt="German Shepherd" width="400px" height="200px">
+        </div>
+        <br>
+        <div class=Objects">
+            <button onclick="dog3()">What kind of dog is this?</button>
+        </div>
+        <br><br><br>
     </center>
     <script src="actions.js"></script>
 </body>
