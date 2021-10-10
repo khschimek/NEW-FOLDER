@@ -31,6 +31,36 @@ Body {
     color:white;
 }
 
+.NavigationBarHome a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .NavigationBarHome {
+        width: 80px;
+        height: 207.5px;
+        overflow-y: auto;
+    }
+    .NavigationBarHome a {
+        background-color: violet;
+        color: black;
+        display: block;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+    }
+    .NavigationBarHome a:hover {
+        background-color: red;
+        color: white;
+    }
+    .NavigationBarHome a.active {
+        background-color: darkblue;
+        color: white;
+    }
+}
 
 .NavigationBarDog {
 
@@ -61,17 +91,48 @@ Body {
     color:white;
 }
 
+.NavigationBarDog a.active {
+    background-color: darkred;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .NavigationBarDog {
+        width: 80px;
+        height: 207.5px;
+        overflow-y: auto;
+    }
+    .NavigationBarDog a {
+        background-color: red;
+        color: black;
+        display: block;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+    }
+    .NavigationBarDog a:hover {
+        background-color: purple;
+        color: white;
+    }
+    .NavigationBarDog a.active {
+        background-color: darkred;
+        color: white;
+    }
+}
+
 .NavigationBarCat {
 
     overflow:hidden;
-    background-color: orange;
+    background-color: darkorange;
     height: 50px;
 }
 
 .NavigationBarCat a {
     float: left;
 
-    background-color: orange;
+    background-color: darkorange;
     color: black;
     text-align: center;
     
@@ -88,6 +149,37 @@ Body {
 .NavigationBarCat a:hover {
     background-color: blue;
     color:white;
+}
+
+.NavigationBarCat a.active {
+    background-color: yellow;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .NavigationBarCat {
+        width: 80px;
+        height: 207.5px;
+        overflow-y: auto;
+    }
+    .NavigationBarCat a {
+        background-color:darkorange;
+        color: black;
+        display: block;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+    }
+    .NavigationBarCat a:hover {
+        background-color: blue;
+        color: white;
+    }
+    .NavigationBarCat a.active {
+        background-color: yellow;
+        color: white;
+    }
 }
 
 .NavigationBarBird {
@@ -117,4 +209,35 @@ Body {
 .NavigationBarBird a:hover {
     background-color: darkgreen;
     color:white;
+}
+
+.NavigationBarBird a.active {
+    background-color: lightgreen;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .NavigationBarBird {
+        width: 80px;
+        height: 207.5px;
+        overflow-y: auto;
+    }
+    .NavigationBarBird a {
+        background-color: yellow;
+        color: black;
+        display: block;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-decoration: none;
+    }
+    .NavigationBarBird a:hover {
+        background-color: darkgreen;
+        color: white;
+    }
+    .NavigationBarBird a.active {
+        background-color: lightgreen;
+        color: white;
+    }
 }
