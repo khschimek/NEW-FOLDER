@@ -13,3 +13,18 @@ Hyper Text Markup Language (HTML)
         shift + alt + f    
 Cascading Style Sheets (CSS)
 Java Script (JS)
+
+async function makeAPIRequest(requestURL) {
+
+    let response = await fetch(requestURL);
+
+    if (response.ok) { // if HTTP-status is 200-299
+
+        // Return the parsed JavaScript Object from the JSON data
+        return response.json();
+
+    } else {
+        console.error("HTTP Error" + response.statusText)
+        alert("HTTP-Error: " + response.status);
+    }
+}
