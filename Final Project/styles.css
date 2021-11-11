@@ -1,0 +1,412 @@
+Body {
+    
+    background-color: grey;
+
+}
+
+.ListBackground {
+    
+    background-color: white;
+    
+}
+
+.NavigationBarHome {
+
+    overflow:hidden;
+
+    background-color: lightgrey;
+
+    height: 50px;
+
+}
+
+.NavigationBarHome a {
+
+    float: left;
+
+    background-color: lightgrey;
+
+    color: black;
+
+    text-align: center;
+    
+    padding-left: 15px;
+
+    padding-right: 15px;
+    
+    padding-top: 12px;
+
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+.NavigationBarHome a:hover {
+
+    background-color:black;
+
+    color:white;
+
+}
+
+.NavigationBarHome a.active {
+
+    background-color: darkgrey;
+
+    color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .NavigationBarHome {
+
+        width: 80px;
+
+        height: 207.5px;
+
+        overflow-y: auto;
+
+    }
+
+    .NavigationBarHome a {
+
+        background-color: lightgrey;
+
+        color: black;
+
+        display: block;
+
+        padding-left: 10px;
+
+        padding-right: 30px;
+
+        padding-top: 12px;
+
+        padding-bottom: 12px;
+
+        text-decoration: none;
+
+    }
+
+    .NavigationBarHome a:hover {
+
+        background-color: black;
+
+        color: white;
+        
+    }
+
+    .NavigationBarHome a.active {
+
+        background-color: darkgrey;
+
+        color: white;
+
+    }
+
+}
+
+.NavigationBarList1 {
+
+    overflow:hidden;
+
+    background-color: lightgrey;
+
+    height: 50px;
+
+}
+
+.NavigationBarList1 a {
+
+    float: left;
+
+    background-color: lightgrey;
+
+    color: black;
+
+    text-align: center;
+    
+    padding-left: 15px;
+
+    padding-right: 15px;
+    
+    padding-top: 12px;
+
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+.NavigationBarList1 a:hover {
+
+    background-color: black;
+
+    color:white;
+
+}
+
+.NavigationBarList1 a.active {
+
+    background-color: darkgrey;
+
+    color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .NavigationBarList1 {
+
+        width: 80px;
+
+        height: 207.5px;
+
+        overflow-y: auto;
+
+    }
+
+    .NavigationBarList1 a {
+
+        background-color: lightgrey;
+
+        color: black;
+
+        display: block;
+
+        padding-left: 10px;
+
+        padding-right: 30px;
+
+        padding-top: 12px;
+
+        padding-bottom: 12px;
+
+        text-decoration: none;
+
+    }
+
+    .NavigationBarList1 a:hover {
+
+        background-color: black;
+
+        color: white;
+
+    }
+
+    .NavigationBarList1 a.active {
+
+        background-color: darkgrey;
+
+        color: white;
+
+    }
+
+}
+
+.NavigationBarList2 {
+
+    overflow:hidden;
+
+    background-color: lightgrey;
+
+    height: 50px;
+
+}
+
+.NavigationBarList2 a {
+
+    float: left;
+
+    background-color: lightgrey;
+
+    color: black;
+
+    text-align: center;
+    
+    padding-left: 15px;
+
+    padding-right: 15px;
+    
+    padding-top: 12px;
+
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+.NavigationBarList2 a:hover {
+
+    background-color: black;
+
+    color:white;
+
+}
+
+.NavigationBarList2 a.active {
+
+    background-color: darkgrey;
+
+    color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .NavigationBarList2 {
+
+        width: 80px;
+
+        height: 207.5px;
+
+        overflow-y: auto;
+
+    }
+
+    .NavigationBarList2 a {
+
+        background-color:lightgrey;
+
+        color: black;
+
+        display: block;
+
+        padding-left: 10px;
+
+        padding-right: 30px;
+
+        padding-top: 12px;
+
+        padding-bottom: 12px;
+
+        text-decoration: none;
+
+    }
+
+    .NavigationBarList2 a:hover {
+
+        background-color: black;
+
+        color: white;
+
+    }
+
+    .NavigationBarList2 a.active {
+
+        background-color: darkgrey;
+
+        color: white;
+
+    }
+
+}
+
+.NavigationBarList3 {
+
+    overflow:hidden;
+
+    background-color: lightgrey;
+
+    height: 50px;
+
+}
+
+.NavigationBarList3 a {
+
+    float: left;
+
+    background-color: lightgrey;
+
+    color: black;
+
+    text-align: center;
+    
+    padding-left: 15px;
+
+    padding-right: 15px;
+    
+    padding-top: 12px;
+
+    padding-bottom: 20px;
+    
+    text-decoration: none;
+
+    font-size: 25px;
+
+}
+
+.NavigationBarList3 a:hover {
+
+    background-color: black;
+
+    color:white;
+
+}
+
+.NavigationBarList3 a.active {
+
+    background-color: darkgrey;
+
+    color: white;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .NavigationBarList3 {
+
+        width: 80px;
+
+        height: 207.5px;
+
+        overflow-y: auto;
+
+    }
+
+    .NavigationBarList3 a {
+
+        background-color: lightgrey;
+
+        color: black;
+
+        display: block;
+
+        padding-left: 10px;
+
+        padding-right: 30px;
+
+        padding-top: 12px;
+
+        padding-bottom: 12px;
+
+        text-decoration: none;
+
+    }
+
+    .NavigationBarList3 a:hover {
+
+        background-color: black;
+
+        color: white;
+
+    }
+
+    .NavigationBarList3 a.active {
+
+        background-color: darkgrey;
+
+        color: white;
+
+    }
+    
+}
+
