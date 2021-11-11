@@ -1,10 +1,20 @@
+function load() {
+    
+    var result = localStorage.getItem("userInput3")
+
+    document.getElementById("list3").innerHTML = result
+
+}
+
+load()
+
 function save() {
     
     console.log("save function called")
 
     var oldstorage = localStorage.getItem("userInput3")
 
-    var userInput3 = oldstorage + "\n" + document.getElementById("userInput3").value
+    var userInput3 = oldstorage + "<br>" + document.getElementById("userInput3").value
 
     localStorage.setItem("userInput3", userInput3)
 
