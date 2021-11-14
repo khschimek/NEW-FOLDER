@@ -6,12 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 2</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightgreen;
+            }
+            .dogimage1 img {
+                width: 300px;
+                height: 150px;
+            }
+            .dogimage1 {
+                background-color: pink;
+            }
+            .dogimage2 img {
+                width: 300px;
+                height: 150px;
+            }
+            .dogimage2 {
+                background-color: lightyellow;
+            }
+            .dogimage3 img {
+                width: 300px;
+                height: 150px;
+            }
+            .dogimage3 {
+                background-color: lightblue;
+            }
+            .breakline {
+                background-color: lightgrey;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="dogbutton">
-        <button onclick="getdog()">Dog</button>
-    </div>
-    <img src="dog" id="dog" alt="Dog">
+    <center>
+        <br>
+        <h1>This Website Will Give You Three Pictures of Dogs</h1>
+        <div class="dogbutton">
+            <button onclick="getdog()">Click to Get Three New Pictures of Dogs</button>
+        </div>
+        <br>
+        <div class="breakline">
+            <br>
+        </div>
+        <div class="dogimage1">
+            <img src="dog1" id="dog1" alt="Dog1" width="600px" height="300px">
+        </div>
+        <div class="breakline">
+            <br>
+        </div>
+        <div class="dogimage2">
+            <img src="dog2" id="dog2" alt="Dog2" width="600px" height="300px">
+        </div>
+        <div class="breakline">
+            <br>
+        </div>
+        <div class="dogimage3">
+            <img src="dog3" id="dog3" alt="Dog3" width="600px" height="300px">
+        </div>
+        <div class="breakline">
+            <br>
+        </div>
+    </center>
     <script src="scripts.js"></script>
 </body>
 </html>
