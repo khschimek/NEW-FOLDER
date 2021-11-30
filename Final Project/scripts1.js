@@ -1,10 +1,6 @@
-var result = localStorage.getItem("userInput1")
-
-if(result == null)
-
-   result = " "
-
 function load() {
+    
+    var result = localStorage.getItem("userInput1")
     
     document.getElementById("list1").innerHTML = result
 
@@ -16,23 +12,9 @@ function save() {
     
     console.log("save function called")
 
-    var oldstorage
+    var oldstorage = localStorage.getItem("userInput1")
 
-    var userInput1 = document.getElementById("userInput1").value
-
-    if(userInput1 != null) {
-
-        oldstorage = localStorage.getItem("userInput1")
-
-    }
-
-    else {
-
-        oldstorage = ""
-
-    }
-
-    userInput1 = oldstorage + "<br>" + document.getElementById("userInput1").value
+    var userInput1 = oldstorage + "<br>" + document.getElementById("userInput1").value
 
     localStorage.setItem("userInput1", userInput1)
 
