@@ -16,7 +16,7 @@ Body {
     
 }
 
-.NavigationBarHome {
+.NavigationBarHomeOriginal {
 
     overflow:hidden;
 
@@ -26,7 +26,7 @@ Body {
 
 }
 
-.NavigationBarHome a {
+.NavigationBarHomeOriginal a {
 
     float: left;
 
@@ -50,7 +50,7 @@ Body {
 
 }
 
-.NavigationBarHome a:hover {
+.NavigationBarHomeOriginal a:hover {
 
     background-color:black;
 
@@ -58,7 +58,7 @@ Body {
 
 }
 
-.NavigationBarHome a.active {
+.NavigationBarHomeOriginal a.active {
 
     background-color: darkgrey;
 
@@ -68,7 +68,7 @@ Body {
 
 @media screen and (max-width: 600px) {
 
-    .NavigationBarHome {
+    .NavigationBarHomeOriginal {
 
         width: 80px;
 
@@ -78,7 +78,7 @@ Body {
 
     }
 
-    .NavigationBarHome a {
+    .NavigationBarHomeOriginal a {
 
         background-color: lightgrey;
 
@@ -98,7 +98,7 @@ Body {
 
     }
 
-    .NavigationBarHome a:hover {
+    .NavigationBarHomeOriginal a:hover {
 
         background-color: black;
 
@@ -106,7 +106,7 @@ Body {
         
     }
 
-    .NavigationBarHome a.active {
+    .NavigationBarHomeOriginal a.active {
 
         background-color: darkgrey;
 
