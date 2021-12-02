@@ -5,7 +5,7 @@ function load() {
     document.getElementById("list1").innerHTML = result
 
 }
-
+//https://www.w3schools.com/jsref/jsref_pop.asp
 load()
 
 function save() {
