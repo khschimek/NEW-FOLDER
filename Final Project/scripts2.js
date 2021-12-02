@@ -1,7 +1,7 @@
 function load() {
     
     var result = localStorage.getItem("userInput2")
-
+    
     document.getElementById("list2").innerHTML = result
 
 }
@@ -14,7 +14,17 @@ function save() {
 
     var oldstorage = localStorage.getItem("userInput2")
 
-    var userInput2 = oldstorage + "<br>" + document.getElementById("userInput2").value
+    var userInput2
+
+    if (oldstorage != null) {
+    
+        userInput2 = oldstorage + "<br>" + document.getElementById("userInput2").value
+
+    } else {
+
+        userInput2 = document.getElementById("userInput2").value
+        
+    }
 
     localStorage.setItem("userInput2", userInput2)
 

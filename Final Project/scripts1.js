@@ -18,13 +18,13 @@ function save() {
 
     if (oldstorage != null) {
     
-        userinput1 = oldstorage + "<br>" + document.getElementById("userInput1").value
+        userInput1 = oldstorage + "<br>" + document.getElementById("userInput1").value
 
     } else {
-        // userinput1 = document.getElementById()
+
+        userInput1 = document.getElementById("userInput1").value
+        
     }
-    // if oldstorage is empty, ignore the next few lines
-    // else append user input and set new local storage
 
     localStorage.setItem("userInput1", userInput1)
 
