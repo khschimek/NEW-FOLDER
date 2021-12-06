@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lange"en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="1E=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>First Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+    
+    <nav class="nav">
+        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        <a class="nav-link" href="#container">Container</a>
+        <a class="nav-link active" href="pages/about.html">About</a>
+        <a class="nav-link" href="pages/page2.html">Page 2</a>
+    </nav>
+
+    <!-- <div class="topNav">
+            <a href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/page2.html">Page 2</a>
+    </div>     -->
+    
+    <!-- <div class="box" id="container">
+        <button onclick="giveMessage()">
+            Give Value of C
+        </button>
+    </div> -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://galleriadallas.com/assets/directory/starbucks.jpg" class="d-block w-100" alt="..." width=100px height=500px> 
+          </div>
+          <div class="carousel-item">
+            <img src="http://cdn.cnn.com/cnnnext/dam/assets/200526153607-starbucks-coffee.jpg" class="d-block w-100" alt="..." width=100px height=500px>
+          </div>
+          <div class="carousel-item">
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F08%2F02%2FStarbucks-Raising-Prices-FT-BLOG0821.jpg" class="d-block w-100" alt="..." width=100px height=500px>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div id="container">
+        <input type="text" value="Name" id="inputField">
+        <input type="color" name="colorPicker" id="colorPicker">
+        <button id="actionButton" class="btn btn-primary" onclick="action()">Action</button>
+    </div>
+    <script>
+        function action() {
+            var myName = document.getElementById("inputField").value
+            var color = document.getElementById("colorPicker").value
+            console.log(myName + " - " + color)
+
+            if( myName == "Mike"){
+                console.log("Mike is cool")
+
+            } else {
+                console.log("I don't know")
+            }
+        }
+    </script>
+
+
+    <script src="js/scripts.jt"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
