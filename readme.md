@@ -1,3 +1,3 @@
 # ReadMe
 
-Theis is the ReadMe.
+Theis is the readme.
